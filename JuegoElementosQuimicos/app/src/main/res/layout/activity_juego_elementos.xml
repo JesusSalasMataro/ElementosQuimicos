@@ -1,0 +1,270 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".JuegoElementos"
+        style="@style/AppTheme">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnHidrogeno"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/hidrogeno"
+            android:contentDescription="H" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnLitio"
+            android:layout_below="@+id/btnHidrogeno"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/litio"
+            android:contentDescription="Li" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBerilio"
+            android:layout_alignBottom="@+id/btnLitio"
+            android:layout_toRightOf="@+id/btnLitio"
+            android:layout_toEndOf="@+id/btnLitio"
+            android:src="@drawable/berilio"
+            android:contentDescription="Be" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSodio"
+            android:layout_below="@+id/btnLitio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/sodio"
+            android:contentDescription="Na" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMagnesio"
+            android:layout_alignBottom="@+id/btnSodio"
+            android:layout_toRightOf="@+id/btnSodio"
+            android:layout_toEndOf="@+id/btnSodio"
+            android:src="@drawable/magnesio"
+            android:contentDescription="Mg" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPotasio"
+            android:layout_below="@+id/btnSodio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/potasio"
+            android:contentDescription="K" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCalcio"
+            android:layout_alignBottom="@+id/btnPotasio"
+            android:layout_toRightOf="@+id/btnPotasio"
+            android:layout_toEndOf="@+id/btnPotasio"
+            android:src="@drawable/calcio"
+            android:contentDescription="Ca" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRubidio"
+            android:layout_below="@+id/btnPotasio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/rubidio"
+            android:contentDescription="Rb" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEstroncio"
+            android:layout_alignBottom="@+id/btnRubidio"
+            android:layout_toRightOf="@+id/btnRubidio"
+            android:layout_toEndOf="@+id/btnRubidio"
+            android:src="@drawable/estroncio"
+            android:contentDescription="Sr" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCesio"
+            android:layout_below="@+id/btnRubidio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/cesio"
+            android:contentDescription="Cs" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBario"
+            android:layout_alignBottom="@+id/btnCesio"
+            android:layout_toRightOf="@+id/btnCesio"
+            android:layout_toEndOf="@+id/btnCesio"
+            android:src="@drawable/bario"
+            android:contentDescription="Ba" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUGAR"
+            android:id="@+id/btnJugar"
+            android:layout_below="@+id/btnFrancio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFrancio"
+            android:layout_below="@+id/btnCesio"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/francio"
+            android:contentDescription="Fr" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRadio"
+            android:layout_above="@+id/btnJugar"
+            android:layout_toRightOf="@+id/btnFrancio"
+            android:layout_toEndOf="@+id/btnFrancio"
+            android:src="@drawable/radio"
+            android:contentDescription="Ra" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dónde se encuentra el elemento X i cuál es su nombre?"
+            android:id="@+id/txvPregunta"
+            android:layout_below="@+id/btnJugar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nº atómico:"
+            android:id="@+id/txvNumero"
+            android:layout_below="@+id/txvPregunta"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNumero"
+            android:layout_toRightOf="@+id/txvNumero"
+            android:layout_below="@+id/txvNumero"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible"
+            android:inputType="numberDecimal"
+            android:minWidth="200dp"
+            android:maxWidth="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txvNumeroOk"
+            android:layout_toRightOf="@+id/edtNumero"
+            android:layout_alignBottom="@+id/edtNumero"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nombre:"
+            android:id="@+id/txvNombre"
+            android:layout_below="@+id/edtNumero"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtNombre"
+            android:layout_below="@+id/txvNombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible"
+            android:maxLength="20"
+            android:minWidth="200dp"
+            android:maxWidth="200dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txvNombreOk"
+            android:layout_toRightOf="@+id/edtNombre"
+            android:layout_alignBottom="@+id/edtNombre"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_comprobar"
+            android:id="@+id/btnComprobar"
+            android:layout_below="@+id/edtNombre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_jugar_otra"
+            android:id="@+id/btnJugarOtra"
+            android:layout_below="@+id/edtNombre"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_finalizar"
+            android:id="@+id/btnFinalizar"
+            android:layout_below="@+id/btnJugarOtra"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Juego Elementos</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info_elementos">Datos elemento</string>
+    <string name="wikipedia"><u>Wikipedia</u></string>
+    <string name="btn_comprobar">Comprobar</string>
+    <string name="btn_finalizar">Finalizar</string>
+    <string name="title_activity_mi_navegador">Mi Navegador</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_jugar_otra">Jugar otra</string>
+
+</resources>
