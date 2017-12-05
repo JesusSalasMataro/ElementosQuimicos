@@ -1,4 +1,4 @@
 *.docx
 *.pdf
 *.rar
-.gitignore
+*.gitignore
